@@ -1,5 +1,3 @@
-
-
 descriptions = [
     {
         "type": "function",
@@ -11,7 +9,7 @@ descriptions = [
                 "properties": {},
                 "required": [],
             },
-        "returns": "The current local time."
+            "returns": "The current local time."
         }
     },
     {
@@ -76,4 +74,18 @@ descriptions = [
             "returns": "The weather in the city."
         }
     },
+
+    {
+        "type": "function",
+        "function": {
+            "name": "local_temperature_info",
+            "description": "This function returns the local forcast temperature information.",
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        }
+    }
+
 ]
