@@ -160,6 +160,22 @@ def chat(message):
           response = fix_format(messages)
           
           return response
+
+
+        # LOCAL TEMPERATURE INFO FUNCTION
+        # elif function_name == "local_temperature_info":
+        #
+        #     print("GPT: called function " + function_name)
+        #
+        #     chosen_function = eval(function_name)
+        #
+        #     temperature = chosen_function()
+        #
+        #     messages.append({"role": "function", "name": function_name, "content": temperature})
+        #
+        #     response = fix_format(messages)
+        #
+        #     return response
         
         
     else:
